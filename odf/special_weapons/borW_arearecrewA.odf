@@ -1,0 +1,14 @@
+ordname = "borWO_arearecrewA"
+special = 0
+useprimarytarget = 0
+basetargets = 25
+needtarget = 0
+hitmode = 5
+hitcloaked = 1
+beneficial = 1
+classlabel = "cannonimp"
+wpnname = "cannonimp"
+shotdelay0 = 0.1
+speakonattack = 0
+attackspeech = 0
+range = 900

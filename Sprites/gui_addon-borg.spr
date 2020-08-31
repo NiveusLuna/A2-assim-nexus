@@ -1,0 +1,10 @@
+sprite_table
+
+#############################
+######  Build Buttons  ######
+#############################
+
+@reference=128
+@tmaterial=interface
+b_bbase-assim			gbrefit1	0	64	64	64	#	1	2
+b_bturret-assim-refit	gbrefit1	64	64	64	64	#	2	2

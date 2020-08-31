@@ -1,0 +1,14 @@
+ordname = "borWO_areaboardA"
+special = 0
+useprimarytarget = 0
+basetargets = 25
+needtarget = 0
+hitmode = 4
+beneficial = 1
+classlabel = "cannonimp"
+wpnname = "cannonimp"
+shotdelay0 = 5
+speakonattack = 0
+attackspeech = 0
+range = 900
+// hitinvalid = 1

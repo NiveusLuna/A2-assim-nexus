@@ -1,0 +1,106 @@
+#include "bbase.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Assimilation Nexus"
+
+//tooltips
+tooltip = "Borg Assimilation Nexus"
+verboseTooltip = "A Nexus whose sole purpose is to assimilate that which surrounds it."
+
+// encourage player to build near borg advanced yards
+beneficialBuild = 0
+	"byard2.odf" 1
+
+// How close is close enough?
+// Default is 300.0
+// beneficialBuildRadius = 300.0
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// What do I look like?
+baseName = "bbase"
+
+// Auto-Assimilator
+weapon1 = "borW_bluebeam-nexus"
+weaponHardpoints1 =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+
+// Auto-Assimilator
+// weapon2 = "borW_bluebeam-nexus2"
+// weaponHardpoints2 =  "hp33" "hp38" "hp39" "hp40" "hp42" "hp46" "hp47"
+
+// Holding Beam
+// weapon3 = "gholdbm"
+// weaponHardpoints3 =  "hp08" "hp08"
+
+weapon2 = "borW_generate_crew"
+weapon3 = "borRW_arearecrew"
+// weapon4 = "borRW_areaboard"
+weapon4 = "borW_areaboardA"
+weaponhardpoints4 = "hp08" "hp33" "hp38" "hp39" "hp40" "hp42" "hp46" "hp47"
+
+
+// no other weapons
+// weapon3 = null
+// weaponHardpoints3 =  null
+// weapon4 = null
+// weaponHardpoints4 =  null
+weapon5 = null
+weaponHardpoints5 =  null
+weapon6 = null
+weaponHardpoints6 =  null
+weapon7 = null
+weaponHardpoints7 =  null
+weapon8 = null
+weaponHardpoints8 =  null
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 32
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = null
+buildItem1 = null
+
+buildHardpoint = null
+
+//**********************************************************************
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1000
+enginesHitPoints = 0
+weaponsHitPoints = 1000
+lifeSupportHitPoints = 1000
+sensorsHitPoints = 1000
+
+//**********************************************************************
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+aiName = "CraftProcess"
+
+
+//**********************************************************************
+
+//************************************************************
+// Brian additions for context sensitive menus
+combat = 1
+alert = 1
+transporter = 1
+builder_ship = 0
+SHOW_MOVEMENT_AUTONOMY = 0
+SHOW_SW_AUTONOMY = 1
